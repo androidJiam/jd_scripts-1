@@ -360,10 +360,10 @@ async function helpFriends() {
           console.log(`助力朋友：${code}成功，因一次只能助力一个，故跳出助力`)
           break
         } else if (assistFriendRes && assistFriendRes['ret'] === 11009) {
-          console.log(`助力朋友[${code}]失败：${assistFriendRes.msg}，跳出助力`);
+          console.log(`助力朋友[${code}]失败00：${assistFriendRes.msg}，跳出助力`);
           break
         } else {
-          console.log(`助力朋友[${code}]失败：${assistFriendRes.msg}`)
+          console.log(`助力朋友[${code}]失败00：${assistFriendRes.msg}`)
         }
       }
     }
